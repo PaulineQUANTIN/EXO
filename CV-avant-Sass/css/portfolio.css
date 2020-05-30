@@ -1,0 +1,102 @@
+.navbar {
+    background-color: #270A38;
+}
+
+.navbar-brand__logo {
+    width: 130px;
+    height: 130px;
+}
+
+.navbar-dark .nav-link{
+    font-family: 'Emilys Candy', cursive;
+    color: #E5E5E5;
+    font-size: 20px;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #8724DF !important;
+}
+
+.navbar-dark .active:hover {
+    color: #FFFFFF !important;
+;
+}
+
+.header {
+    position: relative; 
+}
+
+.header__image {
+    width: 100%;
+    height: auto;
+}
+
+.header__text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -1000%);
+    font-family: 'Emilys Candy', cursive;
+    color: #E5E5E5;
+    font-size: 60px;
+}
+
+.container-fluid {
+    background-color: #150a1b;
+}
+
+.skills__image, .projects__image {
+    width: 150px;
+    height: 150px;
+}
+
+.projects__image {
+    border-radius: 6px;
+}
+
+.hobbies__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #270A38;
+}
+
+.about__text__title, .parcours__text__title, .experiences__text__title, .projects__text__title, .skills__text__title, .hobbies__text__title {
+    font-family: 'Emilys Candy', cursive;
+    color: #8724DF;
+    font-size: 28px;
+}
+
+.parcours__text__description, .experiences__text__description, .about__text__description, .copyright {
+    list-style: none;
+    color: #E5E5E5;
+}
+
+.contact__button {
+    width: 320px;
+    height: 70px;
+    font-family: 'Emilys Candy', cursive;
+    background-color: #8724DF;
+    border: 2px solid #8724DF;
+    border-radius: 6px;
+    color: #E5E5E5;
+    font-size: 36px;
+}
+
+.contact__mail, .parcours__icon, .experiences__icon, .projects__icon, .skills__icon, .hobbies__icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.social_media {
+    width: 40px;
+    height: 40px;
+}
+
+.copyright__text {
+    font-size: 12px;
+}
+
+span {
+    margin-left: 30px;
+}
